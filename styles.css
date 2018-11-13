@@ -1,0 +1,78 @@
+body {
+
+	padding:200px 300px;
+}
+div {
+	box-sizing: border-box;
+}
+input {
+	display:block;
+}
+.obolochka {
+	height: 400px;
+	
+	display: flex;
+}
+.operationRecord {
+	background-color: white;
+	width: 150px;
+	border:solid #150E03 2px;
+}
+.main {
+	display:flex;
+	border:2px solid #150E03;
+	flex-direction: column;
+	flex-wrap:wrap;
+}
+.display {
+	height: 100px;
+	border-bottom:solid 2px #404D26;
+	background: linear-gradient(270deg, #E6F2F7, #B4A3E5);
+}
+.fields {
+	display:flex;
+	flex-direction: row;
+	
+}
+.field {
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: space-between;
+	height: 270px;
+	width: 300px;
+}
+
+.fieldOperation {
+	display:flex;
+	width: 100px;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	border-left:groove 2px #396975;
+	border-bottom: groove 2px #396975;															
+}
+.number {
+	width:80px;
+	height: 40px;
+	margin:3px;
+	border-radius: 20%;
+}
+input[value="."] {
+	font-size:30px;
+	font-weight: bold;
+}
+.field > input {
+  background-color: #10FFB3;
+}
+
+.fieldOperation > input {
+	background-color: #27BA42;
+}
+.ravno, .sbros {
+width:40%;
+height: 30px;
+background-color: #1FE0D0 !important;
+margin:10px 15px;
+}
